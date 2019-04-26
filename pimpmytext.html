@@ -12,8 +12,20 @@
 		<div>
 			<img src="geek.jpg" alt="Pimpin' it, geek!" />
 		</div>
+		<fieldset>
+			<legend>Text</legend>
+			<textarea rows="4" cols="30" id="area">
+			</textarea>
+		</fieldset>
 
-		<!-- Your UI controls go here -->
-
+		<fieldset>
+			<legend>Pimpification</legend>
+			<button type="button" onclick="resizeText()"> Pimp</button>
+			<br>
+			<input type="checkbox" id="bling" onclick="makeBold()">Bling
+			<br>
+			<button type="button" onclick="addPrefix()">Snoopy</button>
+		</fieldset>
+		<script type="text/javascript" src="pimpmytext.js" ></script>
 	</body>
 </html>
